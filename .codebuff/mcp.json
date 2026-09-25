@@ -1,0 +1,15 @@
+{
+  "kicad": {
+    "command": "node",
+    "args": [
+      "/home/deden/Documents/KiCAD-MCP-Server/dist/index.js"
+    ],
+    "env": {
+      "KICAD_BACKEND": "auto",
+      "KICAD_PYTHON": "/home/deden/Documents/KiCAD-MCP-Server/venv/bin/python",
+      "LOG_LEVEL": "info",
+      "NODE_ENV": "production",
+      "PYTHONPATH": "/usr/lib/python3/dist-packages"
+    }
+  }
+}

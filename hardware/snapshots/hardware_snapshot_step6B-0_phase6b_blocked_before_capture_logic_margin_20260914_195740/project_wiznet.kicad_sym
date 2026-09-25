@@ -1,0 +1,196 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (symbol "WIZ850io"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at 2.54 0 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Value" "WIZ850io"
+      (at 0 -2.54 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Footprint" ""
+      (at 0 -5.08 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+      (hide yes)
+    )
+    (property "Datasheet" "https://docs.wiznet.io/Product/ioModule/WIZ850io"
+      (at 0 -7.62 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+      (hide yes)
+    )
+    (property "Description" "WIZnet WIZ850io W5500 Ethernet module with integrated PHY, magnetics and RJ45; two 1x6 2.54 mm headers"
+      (at 0 -10.16 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+      (hide yes)
+    )
+    (property "ki_keywords" "WIZnet WIZ850io W5500 Ethernet module RJ45 SPI"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+      (hide yes)
+    )
+    (symbol "WIZ850io_0_1"
+      (rectangle
+        (start -10.16 -8.89)
+        (end 10.16 8.89)
+        (stroke (width 0.254) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -10.16 -7.62)
+          (xy 10.16 -7.62)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -8.89)
+          (xy 0 8.89)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+    )
+    (symbol "WIZ850io_1_1"
+      (pin power_in line
+        (at -12.7 6.35 0)
+        (length 2.54)
+        (name "GND"
+          (effects (font (size 1.27 1.27)))
+        )
+        (number "J1.1"
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (pin power_in line
+        (at -12.7 3.81 0)
+        (length 2.54)
+        (name "GND"
+          (effects (font (size 1.27 1.27)))
+        )
+        (number "J1.2"
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (pin input line
+        (at -12.7 1.27 0)
+        (length 2.54)
+        (name "MOSI"
+          (effects (font (size 1.27 1.27)))
+        )
+        (number "J1.3"
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (pin input line
+        (at -12.7 -1.27 0)
+        (length 2.54)
+        (name "SCLK"
+          (effects (font (size 1.27 1.27)))
+        )
+        (number "J1.4"
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (pin input line
+        (at -12.7 -3.81 0)
+        (length 2.54)
+        (name "SCSn"
+          (effects (font (size 1.27 1.27)))
+        )
+        (number "J1.5"
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (pin output line
+        (at -12.7 -6.35 0)
+        (length 2.54)
+        (name "INTn"
+          (effects (font (size 1.27 1.27)))
+        )
+        (number "J1.6"
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (pin power_in line
+        (at 12.7 6.35 180)
+        (length 2.54)
+        (name "GND"
+          (effects (font (size 1.27 1.27)))
+        )
+        (number "J2.1"
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (pin power_in line
+        (at 12.7 3.81 180)
+        (length 2.54)
+        (name "3V3D"
+          (effects (font (size 1.27 1.27)))
+        )
+        (number "J2.2"
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (pin power_in line
+        (at 12.7 1.27 180)
+        (length 2.54)
+        (name "3V3D"
+          (effects (font (size 1.27 1.27)))
+        )
+        (number "J2.3"
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (pin no_connect line
+        (at 12.7 -1.27 180)
+        (length 2.54)
+        (name "NC"
+          (effects (font (size 1.27 1.27)))
+        )
+        (number "J2.4"
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (pin input line
+        (at 12.7 -3.81 180)
+        (length 2.54)
+        (name "RSTn"
+          (effects (font (size 1.27 1.27)))
+        )
+        (number "J2.5"
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (pin output line
+        (at 12.7 -6.35 180)
+        (length 2.54)
+        (name "MISO"
+          (effects (font (size 1.27 1.27)))
+        )
+        (number "J2.6"
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+    )
+  )
+)

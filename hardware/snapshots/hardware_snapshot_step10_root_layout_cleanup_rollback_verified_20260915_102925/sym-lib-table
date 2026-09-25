@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Project_WIZnet")(type "KiCad")(uri "${KIPRJMOD}/project_wiznet.kicad_sym")(options "")(descr "Project-specific WIZnet module symbols"))
+  (lib (name "Project_Outputs")(type "KiCad")(uri "/home/deden/Documents/my-project/project-min/hardware/project_symbols.kicad_sym")(options "")(descr "Project-local protected output switches"))
+  (lib (name "Project_Power")(type "KiCad")(uri "/home/deden/Documents/my-project/project-min/hardware/project_power.kicad_sym")(options "")(descr "Project-specific power-management symbols"))
+)

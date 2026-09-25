@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__kicad__get_backend_state"
+    ],
+    "deny": [],
+    "defaultMode": "default"
+  }
+}

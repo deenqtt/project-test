@@ -1,0 +1,59 @@
+(version 1)
+
+# PCB-02B4: package-internal pad-to-pad exceptions.
+# Same footprint + explicit pad group only.
+# Routing net-class clearances remain unchanged.
+
+# U6 / U7 ISO1212DBQ SSOP-16.
+# Physical adjacent-pad copper gap = 0.235 mm.
+# Logic pins 1-8 may use 0.20 mm among themselves.
+# Field pins 9-16 may use 0.20 mm among themselves.
+# NEVER relax clearance between the two isolation sides.
+
+(rule "ISO1212_U6_logic_side_pads"
+  (constraint clearance (min 0.20mm))
+  (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.memberOfFootprint('U6') && B.memberOfFootprint('U6') && (A.Pad_Number == '1' || A.Pad_Number == '2' || A.Pad_Number == '3' || A.Pad_Number == '4' || A.Pad_Number == '5' || A.Pad_Number == '6' || A.Pad_Number == '7' || A.Pad_Number == '8') && (B.Pad_Number == '1' || B.Pad_Number == '2' || B.Pad_Number == '3' || B.Pad_Number == '4' || B.Pad_Number == '5' || B.Pad_Number == '6' || B.Pad_Number == '7' || B.Pad_Number == '8')"))
+
+(rule "ISO1212_U6_field_side_pads"
+  (constraint clearance (min 0.20mm))
+  (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.memberOfFootprint('U6') && B.memberOfFootprint('U6') && (A.Pad_Number == '9' || A.Pad_Number == '10' || A.Pad_Number == '11' || A.Pad_Number == '12' || A.Pad_Number == '13' || A.Pad_Number == '14' || A.Pad_Number == '15' || A.Pad_Number == '16') && (B.Pad_Number == '9' || B.Pad_Number == '10' || B.Pad_Number == '11' || B.Pad_Number == '12' || B.Pad_Number == '13' || B.Pad_Number == '14' || B.Pad_Number == '15' || B.Pad_Number == '16')"))
+
+(rule "ISO1212_U7_logic_side_pads"
+  (constraint clearance (min 0.20mm))
+  (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.memberOfFootprint('U7') && B.memberOfFootprint('U7') && (A.Pad_Number == '1' || A.Pad_Number == '2' || A.Pad_Number == '3' || A.Pad_Number == '4' || A.Pad_Number == '5' || A.Pad_Number == '6' || A.Pad_Number == '7' || A.Pad_Number == '8') && (B.Pad_Number == '1' || B.Pad_Number == '2' || B.Pad_Number == '3' || B.Pad_Number == '4' || B.Pad_Number == '5' || B.Pad_Number == '6' || B.Pad_Number == '7' || B.Pad_Number == '8')"))
+
+(rule "ISO1212_U7_field_side_pads"
+  (constraint clearance (min 0.20mm))
+  (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.memberOfFootprint('U7') && B.memberOfFootprint('U7') && (A.Pad_Number == '9' || A.Pad_Number == '10' || A.Pad_Number == '11' || A.Pad_Number == '12' || A.Pad_Number == '13' || A.Pad_Number == '14' || A.Pad_Number == '15' || A.Pad_Number == '16') && (B.Pad_Number == '9' || B.Pad_Number == '10' || B.Pad_Number == '11' || B.Pad_Number == '12' || B.Pad_Number == '13' || B.Pad_Number == '14' || B.Pad_Number == '15' || B.Pad_Number == '16')"))
+
+# J1 GCT USB4105.
+# Only USB-C signal pads A5-A8 / B5-B8.
+# VBUS, GND, shield and mechanical pads are NOT included.
+
+(rule "USB4105_J1_signal_pads"
+  (constraint clearance (min 0.20mm))
+  (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.memberOfFootprint('J1') && B.memberOfFootprint('J1') && (A.Pad_Number == 'A5' || A.Pad_Number == 'A6' || A.Pad_Number == 'A7' || A.Pad_Number == 'A8' || A.Pad_Number == 'B5' || A.Pad_Number == 'B6' || A.Pad_Number == 'B7' || A.Pad_Number == 'B8') && (B.Pad_Number == 'A5' || B.Pad_Number == 'A6' || B.Pad_Number == 'A7' || B.Pad_Number == 'A8' || B.Pad_Number == 'B5' || B.Pad_Number == 'B6' || B.Pad_Number == 'B7' || B.Pad_Number == 'B8')"))
+
+# U1 LMR36510ADDA HSOIC-8.
+# VIN pins 2/3 to exposed pad 9.
+# TI land-pattern physical gap = 0.30 mm.
+
+(rule "LMR36510_U1_VIN_to_EP"
+  (constraint clearance (min 0.30mm))
+  (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.memberOfFootprint('U1') && B.memberOfFootprint('U1') && (A.Pad_Number == '2' || A.Pad_Number == '3' || A.Pad_Number == '9') && (B.Pad_Number == '2' || B.Pad_Number == '3' || B.Pad_Number == '9')"))
+
+# U8 SN74AHCT125 TSSOP-14.
+# Only pads 13/14.
+# Physical copper gap = 0.25 mm.
+
+(rule "AHCT125_U8_pads_13_14"
+  (constraint clearance (min 0.25mm))
+  (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.memberOfFootprint('U8') && B.memberOfFootprint('U8') && (A.Pad_Number == '13' || A.Pad_Number == '14') && (B.Pad_Number == '13' || B.Pad_Number == '14')"))
+
+(rule "ISO1212_U6_field_escape"
+  (constraint clearance (min 0.25mm))
+  (condition "A.Type == 'Track' && A.NetClass == 'DI_FIELD' && A.intersectsCourtyard('U6') && ((B.Type == 'Pad' && B.memberOfFootprint('U6') && (B.Pad_Number == '9' || B.Pad_Number == '10' || B.Pad_Number == '11' || B.Pad_Number == '12' || B.Pad_Number == '13' || B.Pad_Number == '14' || B.Pad_Number == '15' || B.Pad_Number == '16')) || (B.Type == 'Track' && B.NetClass == 'DI_FIELD' && B.intersectsCourtyard('U6')))"))
+
+(rule "ISO1212_U7_field_escape"
+  (constraint clearance (min 0.25mm))
+  (condition "A.Type == 'Track' && A.NetClass == 'DI_FIELD' && A.intersectsCourtyard('U7') && ((B.Type == 'Pad' && B.memberOfFootprint('U7') && (B.Pad_Number == '9' || B.Pad_Number == '10' || B.Pad_Number == '11' || B.Pad_Number == '12' || B.Pad_Number == '13' || B.Pad_Number == '14' || B.Pad_Number == '15' || B.Pad_Number == '16')) || (B.Type == 'Track' && B.NetClass == 'DI_FIELD' && B.intersectsCourtyard('U7')))"))

@@ -1,0 +1,29 @@
+** Drc report for kicad_mcp_test.kicad_pcb **
+** Created on 2026-09-14T08:30:34+0700 **
+** Report includes: Errors, Warnings **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 6 Footprint errors **
+[net_conflict]: Pad net (Net-(D1-Pad1)) doesn't match net given by schematic (Net-(D1-K)).
+    Local override; warning
+    @(23.0625 mm, 10.0000 mm): Pad 1 [Net-(D1-Pad1)] of D1 on F.Cu
+[net_conflict]: Pad net (Net-(D1-Pad2)) doesn't match net given by schematic (Net-(D1-A)).
+    Local override; warning
+    @(24.9375 mm, 10.0000 mm): Pad 2 [Net-(D1-Pad2)] of D1 on F.Cu
+[net_conflict]: Pad net (Net-(D1-Pad2)) doesn't match net given by schematic (Net-(D1-A)).
+    Local override; warning
+    @(5.0000 mm, 15.0000 mm): PTH pad 1 [Net-(D1-Pad2)] of J1
+[net_conflict]: Pad net (Net-(J1-Pad2)) doesn't match net given by schematic (Net-(J1-Pin_2)).
+    Local override; warning
+    @(5.0000 mm, 17.5400 mm): PTH pad 2 [Net-(J1-Pad2)] of J1
+[net_conflict]: Pad net (Net-(J1-Pad2)) doesn't match net given by schematic (Net-(J1-Pin_2)).
+    Local override; warning
+    @(14.0875 mm, 10.0000 mm): Pad 1 [Net-(J1-Pad2)] of R1 on F.Cu
+[net_conflict]: Pad net (Net-(D1-Pad1)) doesn't match net given by schematic (Net-(D1-K)).
+    Local override; warning
+    @(15.9125 mm, 10.0000 mm): Pad 2 [Net-(D1-Pad1)] of R1 on F.Cu
+
+** End of Report **

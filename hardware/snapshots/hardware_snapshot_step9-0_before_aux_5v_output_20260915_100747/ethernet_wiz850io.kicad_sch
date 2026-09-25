@@ -1,0 +1,1560 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2ee82220-ec5f-42b6-8156-1e3e64ffbd82")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Project_WIZnet:WIZ850io"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "WIZ850io"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://docs.wiznet.io/Product/ioModule/WIZ850io"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "WIZnet WIZ850io W5500 Ethernet module with integrated PHY, magnetics and RJ45; two 1x6 2.54 mm headers"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "WIZnet WIZ850io W5500 Ethernet module RJ45 SPI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WIZ850io_0_1"
+				(polyline
+					(pts
+						(xy -10.16 -7.62) (xy 10.16 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -10.16 -8.89)
+					(end 10.16 8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -8.89) (xy 0 8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "WIZ850io_1_1"
+				(pin power_in line
+					(at -12.7 6.35 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 1.27 0)
+					(length 2.54)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J1.3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -1.27 0)
+					(length 2.54)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J1.4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -3.81 0)
+					(length 2.54)
+					(name "SCSn"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J1.5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 -6.35 0)
+					(length 2.54)
+					(name "INTn"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J1.6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 6.35 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J2.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 3.81 180)
+					(length 2.54)
+					(name "3V3D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 1.27 180)
+					(length 2.54)
+					(name "3V3D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J2.3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J2.4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "RSTn"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J2.5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -6.35 180)
+					(length 2.54)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J2.6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "MECHANICAL (OFFICIAL): body 23.00 x 25.00mm; header rows 20.32mm apart; pin pitch 2.54mm; pin-1 center 6.4mm from top, pin-6 center 5.9mm from bottom."
+		(exclude_from_sim no)
+		(at 40.64 142.24 0)
+		(effects
+			(font
+				(size 0.95 0.95)
+			)
+			(justify left bottom)
+		)
+		(uuid "0817dfc2-d1ee-470f-a3ed-cbe5eb9e4029")
+	)
+	(text "RJ45 / CABLE ENTRY TOWARD TOP HOST-PCB EDGE"
+		(exclude_from_sim no)
+		(at 111.76 48.26 0)
+		(effects
+			(font
+				(size 1 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "2066a0f1-a705-4861-bf1d-ffe2e842bb31")
+	)
+	(text "LOCAL 3V3 BYPASS"
+		(exclude_from_sim no)
+		(at 40.64 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "23a02e0b-3cf9-4faa-a92f-d65040c47cf4")
+	)
+	(text "CUSTOM FOOTPRINT VERIFIED: official rev1.1 PcbDoc gives pad 1.524mm and drill 0.9144mm; drawing gives body/header coordinates. No geometry guessed."
+		(exclude_from_sim no)
+		(at 40.64 147.32 0)
+		(effects
+			(font
+				(size 0.95 0.95)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "38edd5b3-0e7c-4654-88b8-ac95d08fd270")
+	)
+	(text "BIAS: module rev1.1 includes 4.7k pull-ups on SCSn, INTn and RSTn. No duplicate CS/INT pull-ups are fitted on the carrier."
+		(exclude_from_sim no)
+		(at 40.64 157.48 0)
+		(effects
+			(font
+				(size 0.95 0.95)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "3dfee3a3-5ff6-411c-b840-65e105de8385")
+	)
+	(text "J1 LEFT: 1 GND, 2 GND, 3 MOSI, 4 SCLK, 5 SCSn, 6 INTn"
+		(exclude_from_sim no)
+		(at 91.44 67.31 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "5133d883-1498-4311-add9-86a65751480a")
+	)
+	(text "PHASE 5A — WIZ850io ETHERNET INTERFACE"
+		(exclude_from_sim no)
+		(at 25.4 25.4 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a03d49d-f30b-42e0-a95a-2cc5d3db5aff")
+	)
+	(text "POWER NOTE: WIZ850io already contains its internal bypass network. C14 10uF + C15 100nF provide carrier-side bypass at the socket."
+		(exclude_from_sim no)
+		(at 40.64 127 0)
+		(effects
+			(font
+				(size 0.95 0.95)
+			)
+			(justify left bottom)
+		)
+		(uuid "93d46a17-3e07-41ff-beae-e42b181724ca")
+	)
+	(text "J2 RIGHT: 1 GND, 2 3V3D, 3 3V3D, 4 NC, 5 RSTn, 6 MISO"
+		(exclude_from_sim no)
+		(at 157.48 67.31 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6e91056-0391-40c5-a6b6-bda1e58a6022")
+	)
+	(text "PIN 1 IS NEAREST RJ45; NUMBERING RUNS TOP → BOTTOM TO PIN 6"
+		(exclude_from_sim no)
+		(at 111.76 53.34 0)
+		(effects
+			(font
+				(size 1 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac035161-748b-42eb-958f-d7d1abc4322e")
+	)
+	(text "RESET: drive RSTn LOW >=500us; after release HIGH wait >=50ms before SPI. MCU-side 1k pull-down guarantees LOW against module 4.7k pull-up."
+		(exclude_from_sim no)
+		(at 40.64 137.16 0)
+		(effects
+			(font
+				(size 0.95 0.95)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0500c2d-e650-4f0f-98ce-39ceed52d8b2")
+	)
+	(text "WIZ850io MODULE — TOP VIEW"
+		(exclude_from_sim no)
+		(at 111.76 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e89e2f26-fec5-4099-a047-61d7af29b10e")
+	)
+	(text "SPI NOTE: module schematic rev1.1 includes 3.3ohm series damping on MOSI/MISO/SCLK/SCSn. No duplicate carrier series resistors fitted."
+		(exclude_from_sim no)
+		(at 40.64 132.08 0)
+		(effects
+			(font
+				(size 0.95 0.95)
+			)
+			(justify left bottom)
+		)
+		(uuid "eebbde8c-aa0f-4a16-ac1e-fa6083f85530")
+	)
+	(text "LAYOUT: place RJ45 at host PCB edge with cable/latch access; validate enclosure overhang and courtyard before PCB placement."
+		(exclude_from_sim no)
+		(at 40.64 152.4 0)
+		(effects
+			(font
+				(size 0.95 0.95)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "fdc89af6-8f16-4403-a72c-4a89d0aab93f")
+	)
+	(no_connect
+		(at 152.4 92.71)
+		(uuid "6a07c632-aa9a-4e6b-89f6-d9449a068014")
+	)
+	(global_label "LOGIC_GND"
+		(shape bidirectional)
+		(at 88.9 77.47 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07e3d8ff-a558-45d9-a614-cab6c6587b20")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.2 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_LOGIC"
+		(shape bidirectional)
+		(at 152.4 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a00eb84-091c-41e8-bdcc-136d949497e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LOGIC_GND"
+		(shape bidirectional)
+		(at 152.4 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25174386-a4c3-4491-a537-6458c2f17e60")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ETH_INT_N"
+		(shape bidirectional)
+		(at 127 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a2bdae1-5533-4aa2-8457-9ad4261221e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LOGIC_GND"
+		(shape bidirectional)
+		(at 127 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3cb01fcd-a1e4-4eff-82eb-b4a65046f589")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ETH_SCK"
+		(shape bidirectional)
+		(at 127 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53141d3a-aa23-4133-8f1b-8e7c67aaa6b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ETH_MISO"
+		(shape bidirectional)
+		(at 152.4 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5af0ed27-d75a-43e2-bdc1-a22de9684907")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ETH_CS_N"
+		(shape bidirectional)
+		(at 127 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70fed805-8c7d-482d-8143-ab090057eaea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_LOGIC"
+		(shape bidirectional)
+		(at 152.4 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f4b9196-3836-4dde-8fff-40062c9bd588")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LOGIC_GND"
+		(shape bidirectional)
+		(at 63.5 77.47 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "908b4dfb-3111-4405-a50f-4b6a651c3568")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_LOGIC"
+		(shape bidirectional)
+		(at 190.5 73.66 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a07cb5a7-072f-4bba-8540-001ca5f1189c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.98 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ETH_MOSI"
+		(shape bidirectional)
+		(at 127 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "affdd6ee-37d5-4158-8c85-250e7ef01e5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LOGIC_GND"
+		(shape bidirectional)
+		(at 190.5 111.76 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c714e7d2-7c16-4c87-9b6b-44e57543505a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.98 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_LOGIC"
+		(shape bidirectional)
+		(at 63.5 69.85 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d07dfb27-d849-4fce-b5eb-8852cc473dfc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LOGIC_GND"
+		(shape bidirectional)
+		(at 127 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7c6821b-2c95-4598-b4c6-e47ba46f1766")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_LOGIC"
+		(shape bidirectional)
+		(at 88.9 69.85 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb58b1b3-0bb7-412f-b91a-d23ad8991c3d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ETH_RST_N"
+		(shape bidirectional)
+		(at 152.4 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa8a8cad-f7a3-4ed7-9ecd-d9da82c78ddd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 190.5 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a8885c5-e7eb-4daf-a591-84ca604ef4ef")
+		(property "Reference" "TP13"
+			(at 190.5 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ETH_GND"
+			(at 190.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 195.58 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 190.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "WIZ850io logic ground test point"
+			(at 190.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07db3f41-5a4e-4542-bee6-9dc34ad2edfb")
+		)
+		(instances
+			(project "kicad_mcp_test"
+				(path "/b0082038-53bb-4001-94c7-c5f1b9621707/29d55a69-3731-4790-a634-167f94c07a8b"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 88.9 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "877057ec-34b2-488d-8338-bcd31f560359")
+		(property "Reference" "C15"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 16V X7R"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 89.86500000000001 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 88.9 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Carrier-side high-frequency bypass; value follows WIZ850io rev1.1 module supply network"
+			(at 88.9 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 88.9 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 88.9 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c49f046e-0166-41a6-ba75-4296ccef7f7a")
+		)
+		(pin "2"
+			(uuid "7e3b5640-723e-47d4-aefa-6bb6abbbf642")
+		)
+		(instances
+			(project "kicad_mcp_test"
+				(path "/b0082038-53bb-4001-94c7-c5f1b9621707/29d55a69-3731-4790-a634-167f94c07a8b"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 63.5 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c8ad12b-6ada-49ea-9816-5f0103a278f6")
+		(property "Reference" "C14"
+			(at 63.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 16V X7R"
+			(at 63.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 64.465 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 63.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Carrier-side bulk bypass; value follows WIZ850io rev1.1 module supply network"
+			(at 63.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 63.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 63.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aecc5642-4ccc-40a8-bd55-6409f20e5cd5")
+		)
+		(pin "2"
+			(uuid "21206b0f-c0db-47fd-abb0-976ce2a91524")
+		)
+		(instances
+			(project "kicad_mcp_test"
+				(path "/b0082038-53bb-4001-94c7-c5f1b9621707/29d55a69-3731-4790-a634-167f94c07a8b"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Project_WIZnet:WIZ850io")
+		(at 139.7 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9db95cea-ef52-4679-baff-ef8318214f6d")
+		(property "Reference" "U4"
+			(at 139.7 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WIZ850io MODULE"
+			(at 139.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project_WIZnet:WIZ850io_Module_THT"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.wiznet.io/Product/ioModule/WIZ850io"
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WIZnet WIZ850io W5500 Ethernet module with integrated PHY, magnetics and RJ45; two 1x6 2.54 mm headers"
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WIZnet"
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WIZ850io"
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint_Status" "VERIFIED from official WIZ850io rev1.1 Altium PcbDoc"
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mechanical" "23.00 x 25.00 mm; row 20.32 mm; pitch 2.54 mm; pad 1.524 mm; drill 0.9144 mm"
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint_Source" "WIZ850io_SCH_V110.PcbDoc (WIZnet, 2024-02-26)"
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "J1.1"
+			(uuid "2ed2e628-5d9e-458d-9e45-ab696bc14e0b")
+		)
+		(pin "J1.2"
+			(uuid "5672bf60-08f1-4344-aebd-9769ee72f4f7")
+		)
+		(pin "J1.3"
+			(uuid "fc3afdc3-75f7-49bc-9bc1-3f29a8f0aa3a")
+		)
+		(pin "J1.4"
+			(uuid "40838588-677d-4fa8-a0da-13cca3cd0f28")
+		)
+		(pin "J1.5"
+			(uuid "8ad2d693-caf3-4ec2-96b7-4911014d1ce5")
+		)
+		(pin "J1.6"
+			(uuid "540324b7-b2a2-4bee-9447-48116a356df0")
+		)
+		(pin "J2.1"
+			(uuid "b8270c70-8f63-46ce-938f-04acf2fd5907")
+		)
+		(pin "J2.2"
+			(uuid "928b7a96-0e8e-4edd-9878-c11c96e932d0")
+		)
+		(pin "J2.3"
+			(uuid "1c613422-43d9-4224-8f56-56c2933e9957")
+		)
+		(pin "J2.4"
+			(uuid "6765f4ad-139c-4331-8ccb-826aafa24520")
+		)
+		(pin "J2.5"
+			(uuid "22a1661b-1000-475e-a3f6-5f005ce68b08")
+		)
+		(pin "J2.6"
+			(uuid "672fc21e-491e-4605-9e9a-53df01c61a2e")
+		)
+		(instances
+			(project "kicad_mcp_test"
+				(path "/b0082038-53bb-4001-94c7-c5f1b9621707/29d55a69-3731-4790-a634-167f94c07a8b"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 190.5 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff57e375-b0d9-4693-949a-3935a5fbd4a3")
+		(property "Reference" "TP12"
+			(at 190.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ETH_3V3"
+			(at 190.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 190.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "WIZ850io 3V3 rail test point"
+			(at 190.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5903aeae-87e6-4af8-98f8-39b34756eade")
+		)
+		(instances
+			(project "kicad_mcp_test"
+				(path "/b0082038-53bb-4001-94c7-c5f1b9621707/29d55a69-3731-4790-a634-167f94c07a8b"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

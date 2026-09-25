@@ -1,0 +1,120 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (symbol "TPS2553DBV"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at 2.54 0 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Value" "TPS2553DBV"
+      (at 0 -2.54 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+      (at 0 -5.08 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+      (hide yes)
+    )
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2553.pdf"
+      (at 0 -7.62 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+      (hide yes)
+    )
+    (property "Description" "Precision adjustable current-limited power-distribution switch, active-high enable, DBV SOT-23-6"
+      (at 0 -10.16 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+      (hide yes)
+    )
+    (property "ki_keywords" "TPS2553 power distribution current limit load switch"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+      (hide yes)
+    )
+    (symbol "TPS2553DBV_0_1"
+      (rectangle
+        (start -5.08 5.08)
+        (end 5.08 -5.08)
+        (stroke (width 0.254) (type default))
+        (fill (type background))
+      )
+    )
+    (symbol "TPS2553DBV_1_1"
+      (pin power_in line
+        (at -7.62 2.54 0)
+        (length 2.54)
+        (name "IN"
+          (effects (font (size 1.27 1.27)))
+        )
+        (number "1"
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (pin input line
+        (at -7.62 -2.54 0)
+        (length 2.54)
+        (name "EN"
+          (effects (font (size 1.27 1.27)))
+        )
+        (number "3"
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (pin power_out line
+        (at 7.62 2.54 180)
+        (length 2.54)
+        (name "OUT"
+          (effects (font (size 1.27 1.27)))
+        )
+        (number "6"
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (pin open_collector inverted
+        (at 7.62 -2.54 180)
+        (length 2.54)
+        (name "~FAULT"
+          (effects (font (size 1.27 1.27)))
+        )
+        (number "4"
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (pin power_in line
+        (at -2.54 -7.62 90)
+        (length 2.54)
+        (name "GND"
+          (effects (font (size 1.27 1.27)))
+        )
+        (number "2"
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (pin output line
+        (at 2.54 -7.62 90)
+        (length 2.54)
+        (name "ILIM"
+          (effects (font (size 1.27 1.27)))
+        )
+        (number "5"
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+    )
+  )
+)

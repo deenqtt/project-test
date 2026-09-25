@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Project_WIZnet")(type "KiCad")(uri "/home/deden/Documents/my-project/project-min/hardware/Project_WIZnet.pretty")(options "")(descr "Project-specific WIZnet module footprints"))
+)

@@ -1,0 +1,1511 @@
+(kicad_sch
+	(version 20250114)
+	(generator "KiCAD-MCP-Server")
+	(uuid d035793e-d347-4080-b695-6bfd252401d1)
+	(paper "A4")
+	(lib_symbols
+		(symbol "Project_Power:TPS2553DBV"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS2553DBV"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(hide yes)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2553.pdf"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(hide yes)
+			)
+			(property "Description" "Precision adjustable current-limited power-distribution switch, active-high enable, DBV SOT-23-6"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(hide yes)
+			)
+			(property "ki_keywords" "TPS2553 power distribution current limit load switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(hide yes)
+			)
+			(symbol "TPS2553DBV_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TPS2553DBV_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector inverted
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~FAULT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "ILIM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(hierarchical_label "5V_MAIN"
+		(shape input)
+		(at 30.48 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db01cbb9-2be8-4b4b-bec4-081a383e3639")
+	)
+	(hierarchical_label "LOGIC_GND"
+		(shape input)
+		(at 30.48 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee3f4fe6-31dd-4dd0-80e2-12e4355bdac8")
+	)
+	(symbol
+		(lib_id "Project_Power:TPS2553DBV")
+		(at 76.2 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2545f72a-9261-4044-bebc-ef7085f71dfc")
+		(property "Reference" "U13"
+			(at 76.2 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS2553DBVR"
+			(at 76.2 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 76.2 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2553.pdf"
+			(at 76.2 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Precision adjustable current-limited power-distribution switch, active-high enable, DBV SOT-23-6"
+			(at 76.2 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPS2553DBVR"
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb8a3b5e-9982-4113-910b-f08116a12448")
+		)
+		(pin "2"
+			(uuid "0de509ee-9a91-4fa0-ae31-ed72a516665f")
+		)
+		(pin "3"
+			(uuid "e70966a5-db77-4183-94c0-7d1a93c6342f")
+		)
+		(pin "4"
+			(uuid "c5f5d594-e77a-43ad-b26d-99403be0a94f")
+		)
+		(pin "5"
+			(uuid "f814594e-4d65-4e44-8fe2-8dd4acb4fefe")
+		)
+		(pin "6"
+			(uuid "e568fcff-54ad-4a41-8c91-2f43e221a056")
+		)
+		(instances
+			(project "kicad_mcp_test"
+				(path "/d035793e-d347-4080-b695-6bfd252401d1"
+					(reference "U13")
+					(unit 1)
+				)
+				(path "/610dd0be-47f3-43ce-a3ea-d4327fc29e0a"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 78.74 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4974280a-a464-407b-972e-0e2c690e0193")
+		(property "Reference" "R47"
+			(at 78.74 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "105k 1%"
+			(at 78.74 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 76.962 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 78.74 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "949529e9-3f41-4c97-af32-784aa05ac053")
+		)
+		(pin "2"
+			(uuid "20138c15-16c1-45de-9188-5fc00dd203b5")
+		)
+		(instances
+			(project "kicad_mcp_test"
+				(path "/d035793e-d347-4080-b695-6bfd252401d1"
+					(reference "R47")
+					(unit 1)
+				)
+				(path "/610dd0be-47f3-43ce-a3ea-d4327fc29e0a"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 53.34 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bb5595f-0fb7-40b4-993c-54756dc74f75")
+		(property "Reference" "C30"
+			(at 53.34 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF 10V X7R"
+			(at 53.34 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 54.305 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 53.34 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 53.34 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 53.34 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff74cd1d-5f1b-4638-b0fe-79f126aeec63")
+		)
+		(pin "2"
+			(uuid "f74d7349-543f-400c-bef9-a9b5226b9198")
+		)
+		(instances
+			(project "kicad_mcp_test"
+				(path "/d035793e-d347-4080-b695-6bfd252401d1"
+					(reference "C30")
+					(unit 1)
+				)
+				(path "/610dd0be-47f3-43ce-a3ea-d4327fc29e0a"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 101.6 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa1d9cdb-633c-4dab-b981-db22fc8e9b4e")
+		(property "Reference" "C31"
+			(at 101.6 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF 10V X7R"
+			(at 101.6 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 102.565 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 101.6 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 101.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 101.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b74cccb8-e122-4aac-9471-6b8be2688d32")
+		)
+		(pin "2"
+			(uuid "1a4d1958-d925-41a3-987a-b27bc881f059")
+		)
+		(instances
+			(project "kicad_mcp_test"
+				(path "/d035793e-d347-4080-b695-6bfd252401d1"
+					(reference "C31")
+					(unit 1)
+				)
+				(path "/610dd0be-47f3-43ce-a3ea-d4327fc29e0a"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 127 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ca46d9a-8727-4073-be9d-8fb8e8572c4a")
+		(property "Reference" "J10"
+			(at 127.0 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AUX 5V OUTPUT / Phoenix 1715721"
+			(at 127.0 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 127 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 127 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Phoenix Contact"
+			(at 127.0 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1715721"
+			(at 127.0 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "592d1d4d-61d6-44b7-a065-c79b8feaee5b")
+		)
+		(pin "2"
+			(uuid "681d9b72-8e00-4281-97cc-f4dd4e030a9f")
+		)
+		(instances
+			(project "kicad_mcp_test"
+				(path "/d035793e-d347-4080-b695-6bfd252401d1"
+					(reference "J10")
+					(unit 1)
+				)
+				(path "/610dd0be-47f3-43ce-a3ea-d4327fc29e0a"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 30.48 50.8) (xy 53.34 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8adfb927-bdce-4d84-a7cb-8fbcd49df08f")
+	)
+	(wire
+		(pts
+			(xy 53.34 50.8) (xy 63.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ad09b3f-0984-471e-88bb-b3aae6171297")
+	)
+	(wire
+		(pts
+			(xy 63.5 50.8) (xy 68.58 50.800000000000004)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35e744a9-a182-48fb-a995-bc569bf3dcd9")
+	)
+	(wire
+		(pts
+			(xy 53.34 50.8) (xy 53.34 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "080b5a83-c7ef-4fdf-9029-0236888318af")
+	)
+	(junction
+		(at 53.34 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "926ad574-2ad0-48e0-ac2e-6e78692a09f3")
+	)
+	(wire
+		(pts
+			(xy 63.5 50.8) (xy 63.5 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc7148d-5902-47f5-a9cc-fd781f684b28")
+	)
+	(wire
+		(pts
+			(xy 63.5 55.88) (xy 68.58 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a63de673-c07e-428b-8020-ba1e83d3f9e6")
+	)
+	(junction
+		(at 63.5 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6434c712-7cbe-4956-a424-b851143455e4")
+	)
+	(wire
+		(pts
+			(xy 83.82000000000001 50.800000000000004) (xy 101.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb6d3a80-ca81-43fa-b888-a3ab9ab2fea9")
+	)
+	(wire
+		(pts
+			(xy 101.6 50.8) (xy 110.49 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62eb1bec-f7cf-4d17-a047-0bbba3f3fbe8")
+	)
+	(wire
+		(pts
+			(xy 110.49 50.8) (xy 110.49 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ffc19a-05e7-400c-8e6b-3776ddbd0a21")
+	)
+	(wire
+		(pts
+			(xy 110.49 53.34) (xy 121.92 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d39f9cf0-d7a3-4d00-93f1-42161b221b8b")
+	)
+	(wire
+		(pts
+			(xy 101.6 50.8) (xy 101.6 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa9bf682-dc91-4ca0-8375-aa67e6f0ffb0")
+	)
+	(junction
+		(at 101.6 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "daecc0a6-656f-4c51-a5f3-507858208ce8")
+	)
+	(wire
+		(pts
+			(xy 78.74000000000001 60.96) (xy 78.74 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3cd77e3-9fbf-4ceb-93b3-277795404faa")
+	)
+	(wire
+		(pts
+			(xy 30.48 76.2) (xy 53.34 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5174989a-eee6-48b1-aafe-3c10d7e4a988")
+	)
+	(wire
+		(pts
+			(xy 53.34 76.2) (xy 73.66 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb8eec60-bdb4-444a-9f20-2be28a76be52")
+	)
+	(wire
+		(pts
+			(xy 73.66 76.2) (xy 78.74 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7910335e-aeb7-440b-88fc-ac65200fd125")
+	)
+	(wire
+		(pts
+			(xy 78.74 76.2) (xy 101.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b119a0-23bc-43f4-9b8d-6add18fab8ef")
+	)
+	(wire
+		(pts
+			(xy 101.6 76.2) (xy 116.84 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "974bdc2b-6a94-456e-bbbf-09cc9b0c71f1")
+	)
+	(wire
+		(pts
+			(xy 116.84 76.2) (xy 121.92 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "623ce2e0-336d-45d4-9b9e-3ae698577e31")
+	)
+	(wire
+		(pts
+			(xy 53.34 67.31) (xy 53.34 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e0a41d9-3d59-4033-ba84-2049cdd7d462")
+	)
+	(junction
+		(at 53.34 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2c507ae-0264-49ad-bcb8-cdf0ff24ecf2")
+	)
+	(wire
+		(pts
+			(xy 73.66 60.96) (xy 73.66 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d6940d-65b7-4e9f-83e2-9bbd8e2ddfd1")
+	)
+	(junction
+		(at 73.66 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d8eb95f-2741-4edd-b00b-b9e8e9959564")
+	)
+	(wire
+		(pts
+			(xy 78.74 74.93) (xy 78.74 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ceadf27-cd3f-464c-9ca2-b5f179d43bd3")
+	)
+	(junction
+		(at 78.74 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f612289c-56de-4526-ac29-ec12007e750e")
+	)
+	(wire
+		(pts
+			(xy 101.6 67.31) (xy 101.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c010e79-1fb0-4c0c-8b6a-888cab35273a")
+	)
+	(junction
+		(at 101.6 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "545b5c6d-90af-42f2-9554-3aa68d5c291b")
+	)
+	(no_connect
+		(at 83.82000000000001 55.88)
+		(uuid "7468a8c0-1530-43a7-a4c7-ba67f67d7806")
+	)
+	(label "AUX_5V"
+		(at 110.49 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b9f706b-87a6-464c-b237-c03a09469749")
+	)
+	(text "PHASE 9 — CURRENT-LIMITED AUXILIARY 5V OUTPUT"
+		(exclude_from_sim no)
+		(at 30.48 25.4 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bd728b1-c23f-45fb-9dda-14040d24f186")
+	)
+	(text "INPUT BYPASS"
+		(exclude_from_sim no)
+		(at 45.72 38.1 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "66cf11de-ea53-41dd-b6d6-1031674ee0a2")
+	)
+	(text "CURRENT LIMIT / LOAD SWITCH"
+		(exclude_from_sim no)
+		(at 68.58 38.1 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbeae72d-d830-410d-b10e-898fb1b5b452")
+	)
+	(text "AUX OUTPUT"
+		(exclude_from_sim no)
+		(at 105.41 38.1 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf729929-e1a7-4921-81d7-f21d0f7433ef")
+	)
+	(text "AUX_5V OUTPUT ONLY — nominal limit ≈254 mA; tolerance range ≈221–292 mA."
+		(exclude_from_sim no)
+		(at 30.48 86.36 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "970427bd-62cc-4c9d-aeb0-9ba6068a55e2")
+	)
+	(text "TPS2553 reverse-voltage cutoff is threshold/delay based; not instantaneous zero-backfeed protection."
+		(exclude_from_sim no)
+		(at 30.48 90.17 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "b589fbb9-6a71-4fd0-9b44-75f2cf5d5c46")
+	)
+	(text "USB_VBUS is not connected. AUX return is non-isolated LOGIC_GND/PWR_GND. No output TVS in Rev A."
+		(exclude_from_sim no)
+		(at 30.48 93.98 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "b09037d2-9ab6-40d2-848b-659782da29fc")
+	)
+	(text "PCB: place C30/C31 and R47 close to U13; use short, wide 5V_MAIN/AUX_5V traces."
+		(exclude_from_sim no)
+		(at 30.48 97.79 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "53d86519-1cca-428e-b8e9-51763ed9e5b3")
+	)
+	(wire
+		(pts
+			(xy 121.92 55.88) (xy 121.92 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4495584e-a9ec-4ade-95d9-5ca8401ffcae")
+	)
+	(label "ILIM_SET"
+		(at 78.74000000000001 60.96 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b6823c7c-5440-4a4c-b015-6cc00c3713a5")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Project_WIZnet")(type "KiCad")(uri "${KIPRJMOD}/project_wiznet.kicad_sym")(options "")(descr "Project-specific WIZnet module symbols"))
+)
